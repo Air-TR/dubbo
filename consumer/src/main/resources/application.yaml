@@ -1,0 +1,15 @@
+server:
+  port: 9002
+
+dubbo:
+  application:
+    # 应用名称
+    name: consumer
+  protocol:
+    # 协议名称
+    name: dubbo
+    # 协议端口，默认 20880
+    port: 20880
+  registry:
+    # 注册中心地址
+    address: zookeeper://127.0.0.1:2181
