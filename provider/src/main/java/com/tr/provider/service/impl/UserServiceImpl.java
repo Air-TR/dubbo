@@ -1,12 +1,12 @@
 package com.tr.provider.service.impl;
 
 import com.tr.provider.service.UserService;
-import org.apache.dubbo.config.annotation.Service;
+import org.apache.dubbo.config.annotation.DubboService;
 
 /**
  * @Author: TR
  */
-@Service
+@DubboService
 public class UserServiceImpl implements UserService {
 
     @Override
